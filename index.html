@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Disctionary</title>
+    <title>English Distionary</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <i class="fas fa-search"></i>
             <span class="material-icons">close</span>
         </div>
-        <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
+        <p class="info-text">Type a word and press enter to get meaning, example, synonyms, etc.</p>
         <ul>
             <li class="word">
                 <div class="details">
@@ -67,12 +67,12 @@
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        background: cyan;
+        background: #ff0052;
     }
 
     ::selection {
         color: #fff;
-        background: cyan;
+        background: #ff0052;
     }
 
     .wrapper {
@@ -106,7 +106,7 @@
 
     .search input:focus {
         padding: 0 41px;
-        border: 2px solid cyan;
+        border: 2px solid #ff0052;
     }
 
     .search input::placeholder {
@@ -127,7 +127,7 @@
     }
 
     .search input:focus~i {
-        color: cyan;
+        color: #ff0052;
     }
 
     .search span {
@@ -212,7 +212,7 @@
     .content li .details {
         padding-left: 10px;
         border-radius: 4px 0 0 4px;
-        border-left: 3px solid cyan;
+        border-left: 3px solid #ff0052;
     }
 
     .content li p {
@@ -309,7 +309,7 @@
         searchInput.focus();
         wrapper.classList.remove("active");
         infoText.style.color = "#9A9A9A";
-        infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
+        infoText.innerHTML = "Type a word and press enter to get meaning, example, synonyms, etc.";
     });
 </script>
 
